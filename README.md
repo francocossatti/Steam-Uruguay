@@ -2,6 +2,8 @@
 
 A data analysis project exploring the Top 1,000 most-played Steam games through the lens of the Uruguayan market. Unlike most Steam datasets, this project collects live data via API, including real-time prices in Uruguayan pesos (UYU), rather than relying on pre-packaged Kaggle CSVs.
 
+![Steam Logo](assets/steamLogo.png)
+
 ---
 
 ## Context
@@ -71,17 +73,23 @@ The Power BI dashboard contains three pages:
 - Top 3 most expensive genres
 - Top developers by number of games in the Top 1,000
 
+  ![Dashboard Page 1 - Accessibility and Prices](assets/page1.png)
+
 ### Page 2 — Quality & Market
 - Price vs. review score scatter plot (correlation)
 - Indie vs. AAA: price and review score comparison
 - Game mode breakdown: Both / Singleplayer / Multiplayer (CCU and review score)
 - Yearly trends: average price and player satisfaction over time
 
+  ![Dashboard Page 2 - Quality and Market](assets/page2.png)
+
 ### Page 3 — Accessibility Factors
 - Recommended RAM and storage hardware targets (KPI cards, P90)
 - Latin American Spanish support impact on audience size
 - Native Linux support (donut chart)
 - Historical value: Recent vs. Classic era price and review score
+
+  ![Dashboard Page 3 - Accessibility Factors](assets/page3.png)
 
 ---
 
